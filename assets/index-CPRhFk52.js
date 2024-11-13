@@ -13,8 +13,8 @@
         <span class="nav-label">GaN's WEBPAGE</span>
             <div class="nav-button">
                 <a href="/index.html">Hello World!</a>|
-                <a href="/aboutme.html">About Me</a>|
-                <a href="#frontpage">Educational Background</a>|
+                <a href="#frontpage">About Me</a>|
+                <a href="/education.html">Educational Background</a>|
                 <a href="#frontpage">Aspirations</a>
             </div>
         `,y(),document.querySelector("footer").innerHTML=`
