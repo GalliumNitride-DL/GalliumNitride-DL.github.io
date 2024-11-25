@@ -1,0 +1,1 @@
+import{i}from"./globalStuff-BJw_tgXX.js";function l(){const n=document.querySelectorAll("section");let e=0,t=!1;document.addEventListener("wheel",o=>{t||(o.deltaY>0&&e<n.length-1?e++:o.deltaY<0&&e>0&&e--,t=!0,n[e].scrollIntoView({behavior:"smooth"}),setTimeout(()=>{t=!1},1500))})}i();document.addEventListener("DOMContentLoaded",()=>{l()});
